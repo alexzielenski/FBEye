@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEA47CA17D7B19D00A3C82D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA47C917D7B19D00A3C82D /* Cocoa.framework */; };
+		FAEA47D417D7B19D00A3C82D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEA47D217D7B19D00A3C82D /* InfoPlist.strings */; };
+		FAEA47D617D7B19D00A3C82D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA47D517D7B19D00A3C82D /* main.m */; };
+		FAEA47DA17D7B19D00A3C82D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FAEA47D817D7B19D00A3C82D /* Credits.rtf */; };
+		FAEA47DD17D7B19D00A3C82D /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA47DC17D7B19D00A3C82D /* FBAppDelegate.m */; };
+		FAEA47E017D7B19D00A3C82D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEA47DE17D7B19D00A3C82D /* MainMenu.xib */; };
+		FAEA47E217D7B19D00A3C82D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEA47E117D7B19D00A3C82D /* Images.xcassets */; };
+		FAEA47E917D7B19D00A3C82D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA47E817D7B19D00A3C82D /* XCTest.framework */; };
+		FAEA47EA17D7B19D00A3C82D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEA47C917D7B19D00A3C82D /* Cocoa.framework */; };
+		FAEA47F217D7B19D00A3C82D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAEA47F017D7B19D00A3C82D /* InfoPlist.strings */; };
+		FAEA47F417D7B19D00A3C82D /* FB_EyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEA47F317D7B19D00A3C82D /* FB_EyeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEA47EB17D7B19D00A3C82D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEA47BE17D7B19C00A3C82D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEA47C517D7B19D00A3C82D;
+			remoteInfo = "FB Eye";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEA47C617D7B19D00A3C82D /* FB Eye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FB Eye.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEA47C917D7B19D00A3C82D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FAEA47CC17D7B19D00A3C82D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FAEA47CD17D7B19D00A3C82D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FAEA47CE17D7B19D00A3C82D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAEA47D117D7B19D00A3C82D /* FB Eye-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FB Eye-Info.plist"; sourceTree = "<group>"; };
+		FAEA47D317D7B19D00A3C82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEA47D517D7B19D00A3C82D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEA47D717D7B19D00A3C82D /* FB Eye-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FB Eye-Prefix.pch"; sourceTree = "<group>"; };
+		FAEA47D917D7B19D00A3C82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FAEA47DB17D7B19D00A3C82D /* FBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
+		FAEA47DC17D7B19D00A3C82D /* FBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
+		FAEA47DF17D7B19D00A3C82D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FAEA47E117D7B19D00A3C82D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAEA47E717D7B19D00A3C82D /* FB EyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = "FB EyeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEA47E817D7B19D00A3C82D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FAEA47EF17D7B19D00A3C82D /* FB EyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FB EyeTests-Info.plist"; sourceTree = "<group>"; };
+		FAEA47F117D7B19D00A3C82D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAEA47F317D7B19D00A3C82D /* FB_EyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FB_EyeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEA47C317D7B19D00A3C82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47CA17D7B19D00A3C82D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA47E417D7B19D00A3C82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47EA17D7B19D00A3C82D /* Cocoa.framework in Frameworks */,
+				FAEA47E917D7B19D00A3C82D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEA47BD17D7B19C00A3C82D = {
+			isa = PBXGroup;
+			children = (
+				FAEA47CF17D7B19D00A3C82D /* FB Eye */,
+				FAEA47ED17D7B19D00A3C82D /* FB EyeTests */,
+				FAEA47C817D7B19D00A3C82D /* Frameworks */,
+				FAEA47C717D7B19D00A3C82D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEA47C717D7B19D00A3C82D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47C617D7B19D00A3C82D /* FB Eye.app */,
+				FAEA47E717D7B19D00A3C82D /* FB EyeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEA47C817D7B19D00A3C82D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47C917D7B19D00A3C82D /* Cocoa.framework */,
+				FAEA47E817D7B19D00A3C82D /* XCTest.framework */,
+				FAEA47CB17D7B19D00A3C82D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAEA47CB17D7B19D00A3C82D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47CC17D7B19D00A3C82D /* AppKit.framework */,
+				FAEA47CD17D7B19D00A3C82D /* CoreData.framework */,
+				FAEA47CE17D7B19D00A3C82D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FAEA47CF17D7B19D00A3C82D /* FB Eye */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47DB17D7B19D00A3C82D /* FBAppDelegate.h */,
+				FAEA47DC17D7B19D00A3C82D /* FBAppDelegate.m */,
+				FAEA47DE17D7B19D00A3C82D /* MainMenu.xib */,
+				FAEA47E117D7B19D00A3C82D /* Images.xcassets */,
+				FAEA47D017D7B19D00A3C82D /* Supporting Files */,
+			);
+			path = "FB Eye";
+			sourceTree = "<group>";
+		};
+		FAEA47D017D7B19D00A3C82D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47D117D7B19D00A3C82D /* FB Eye-Info.plist */,
+				FAEA47D217D7B19D00A3C82D /* InfoPlist.strings */,
+				FAEA47D517D7B19D00A3C82D /* main.m */,
+				FAEA47D717D7B19D00A3C82D /* FB Eye-Prefix.pch */,
+				FAEA47D817D7B19D00A3C82D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEA47ED17D7B19D00A3C82D /* FB EyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47F317D7B19D00A3C82D /* FB_EyeTests.m */,
+				FAEA47EE17D7B19D00A3C82D /* Supporting Files */,
+			);
+			path = "FB EyeTests";
+			sourceTree = "<group>";
+		};
+		FAEA47EE17D7B19D00A3C82D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA47EF17D7B19D00A3C82D /* FB EyeTests-Info.plist */,
+				FAEA47F017D7B19D00A3C82D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEA47C517D7B19D00A3C82D /* FB Eye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEA47F717D7B19D00A3C82D /* Build configuration list for PBXNativeTarget "FB Eye" */;
+			buildPhases = (
+				FAEA47C217D7B19D00A3C82D /* Sources */,
+				FAEA47C317D7B19D00A3C82D /* Frameworks */,
+				FAEA47C417D7B19D00A3C82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FB Eye";
+			productName = "FB Eye";
+			productReference = FAEA47C617D7B19D00A3C82D /* FB Eye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEA47E617D7B19D00A3C82D /* FB EyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEA47FA17D7B19D00A3C82D /* Build configuration list for PBXNativeTarget "FB EyeTests" */;
+			buildPhases = (
+				FAEA47E317D7B19D00A3C82D /* Sources */,
+				FAEA47E417D7B19D00A3C82D /* Frameworks */,
+				FAEA47E517D7B19D00A3C82D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEA47EC17D7B19D00A3C82D /* PBXTargetDependency */,
+			);
+			name = "FB EyeTests";
+			productName = "FB EyeTests";
+			productReference = FAEA47E717D7B19D00A3C82D /* FB EyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEA47BE17D7B19C00A3C82D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alex Zielenski";
+				TargetAttributes = {
+					FAEA47E617D7B19D00A3C82D = {
+						TestTargetID = FAEA47C517D7B19D00A3C82D;
+					};
+				};
+			};
+			buildConfigurationList = FAEA47C117D7B19C00A3C82D /* Build configuration list for PBXProject "FB Eye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEA47BD17D7B19C00A3C82D;
+			productRefGroup = FAEA47C717D7B19D00A3C82D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEA47C517D7B19D00A3C82D /* FB Eye */,
+				FAEA47E617D7B19D00A3C82D /* FB EyeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEA47C417D7B19D00A3C82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47D417D7B19D00A3C82D /* InfoPlist.strings in Resources */,
+				FAEA47E217D7B19D00A3C82D /* Images.xcassets in Resources */,
+				FAEA47DA17D7B19D00A3C82D /* Credits.rtf in Resources */,
+				FAEA47E017D7B19D00A3C82D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA47E517D7B19D00A3C82D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47F217D7B19D00A3C82D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEA47C217D7B19D00A3C82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47DD17D7B19D00A3C82D /* FBAppDelegate.m in Sources */,
+				FAEA47D617D7B19D00A3C82D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEA47E317D7B19D00A3C82D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEA47F417D7B19D00A3C82D /* FB_EyeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEA47EC17D7B19D00A3C82D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEA47C517D7B19D00A3C82D /* FB Eye */;
+			targetProxy = FAEA47EB17D7B19D00A3C82D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEA47D217D7B19D00A3C82D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA47D317D7B19D00A3C82D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAEA47D817D7B19D00A3C82D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA47D917D7B19D00A3C82D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FAEA47DE17D7B19D00A3C82D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA47DF17D7B19D00A3C82D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FAEA47F017D7B19D00A3C82D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEA47F117D7B19D00A3C82D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEA47F517D7B19D00A3C82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FAEA47F617D7B19D00A3C82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAEA47F817D7B19D00A3C82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Eye/FB Eye-Prefix.pch";
+				INFOPLIST_FILE = "FB Eye/FB Eye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAEA47F917D7B19D00A3C82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Eye/FB Eye-Prefix.pch";
+				INFOPLIST_FILE = "FB Eye/FB Eye-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAEA47FB17D7B19D00A3C82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FB Eye.app/Contents/MacOS/FB Eye";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Eye/FB Eye-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FB EyeTests/FB EyeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FAEA47FC17D7B19D00A3C82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FB Eye.app/Contents/MacOS/FB Eye";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Eye/FB Eye-Prefix.pch";
+				INFOPLIST_FILE = "FB EyeTests/FB EyeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEA47C117D7B19C00A3C82D /* Build configuration list for PBXProject "FB Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA47F517D7B19D00A3C82D /* Debug */,
+				FAEA47F617D7B19D00A3C82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEA47F717D7B19D00A3C82D /* Build configuration list for PBXNativeTarget "FB Eye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA47F817D7B19D00A3C82D /* Debug */,
+				FAEA47F917D7B19D00A3C82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEA47FA17D7B19D00A3C82D /* Build configuration list for PBXNativeTarget "FB EyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEA47FB17D7B19D00A3C82D /* Debug */,
+				FAEA47FC17D7B19D00A3C82D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEA47BE17D7B19C00A3C82D /* Project object */;
+}
