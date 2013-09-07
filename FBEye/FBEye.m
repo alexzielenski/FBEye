@@ -35,7 +35,7 @@
     // Not done
 //    [FBSwizzler swizzleClass:[FBCell class]];
 //    [FBSwizzler swizzleClass:[FBButtonCell class]];
-    [FBSwizzler swizzleClass:[FBSegmentedCell class]];
+//    [FBSwizzler swizzleClass:[FBSegmentedCell class]];
     [FBSwizzler swizzleClass:[FBTableView class]];
     [FBSwizzler swizzleClass:[FBThemeFrame class]];
     
