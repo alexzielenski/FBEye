@@ -62,4 +62,8 @@
     control.color  = color ? color : [NSColor clearColor];
 }
 
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+    return YES;
+}
+
 @end
